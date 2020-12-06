@@ -8,7 +8,7 @@
 // Called to identify this accessory. See HAP section 6.7.6 Identify Routine
 // Generally this is called when paired successfully or click the "Identify Accessory" button in Home APP.
 void my_accessory_identify(homekit_value_t _value) {
-	printf("accessory identify\n");
+    printf("accessory identify\n");
 }
 
 
@@ -47,7 +47,7 @@ homekit_accessory_t *accessories[] = {
 };
 
 homekit_server_config_t config = {
-		.accessories = accessories,
-		.password = "463-97-342",
+    .accessories = accessories,
+    .password = "463-97-342",
     .setupId = "4B6F"
 };
