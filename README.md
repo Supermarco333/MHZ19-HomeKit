@@ -1,1 +1,1 @@
-# MHZ19B-HomeKit
+# MHZ19-HomeKit

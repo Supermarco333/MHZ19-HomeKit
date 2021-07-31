@@ -21,11 +21,11 @@ homekit_characteristic_t cha_current_temperature = HOMEKIT_CHARACTERISTIC_(CURRE
 homekit_accessory_t *accessories[] = {
     HOMEKIT_ACCESSORY(.id=1, .category=homekit_accessory_category_sensor, .services=(homekit_service_t*[]) {
         HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]) {
-            HOMEKIT_CHARACTERISTIC(NAME, "Capteur MH-Z19B"),
+            HOMEKIT_CHARACTERISTIC(NAME, "Capteur MH-Z19C"),
             HOMEKIT_CHARACTERISTIC(MANUFACTURER, "Arduino HomeKit"),
             HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "ESP8266"),
-            HOMEKIT_CHARACTERISTIC(MODEL, "MH-Z19B"),
-            HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "1.0"),
+            HOMEKIT_CHARACTERISTIC(MODEL, "MH-Z19C"),
+            HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "2.0"),
             HOMEKIT_CHARACTERISTIC(IDENTIFY, my_accessory_identify),
             NULL
         }),
